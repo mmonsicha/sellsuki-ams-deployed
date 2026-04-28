@@ -72,5 +72,5 @@
 
 ## สถานะการส่งขึ้น GitHub
 - วิธีที่ใช้: `markdown-commit`
-- เป้าหมาย: `docs/reports/sellsuki-dss/2026-04-28-1437-ds3-migration-report.md`
-- ผลลัพธ์: `รอดำเนินการ commit/push`
+- เป้าหมาย: `https://github.com/mmonsicha/sellsuki-ams-deployed.git`
+- ผลลัพธ์: `สำเร็จ` push ขึ้น `origin/main` แล้วใน commit `cb239e2`
