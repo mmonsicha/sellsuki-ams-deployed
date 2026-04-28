@@ -209,7 +209,7 @@ export default function AuthPage() {
                 <DSInput
                   label="อีเมล"
                   type="email"
-                  size="lg"
+                  inputSize="lg"
                   placeholder="ระบุอีเมล"
                   value={emailInput}
                   onChange={e => {
@@ -301,7 +301,7 @@ export default function AuthPage() {
                   <DSInput
                     label="รหัสผ่าน"
                     type="password"
-                    size="lg"
+                    inputSize="lg"
                     placeholder="ระบุรหัสผ่าน"
                     showPasswordToggle
                     value={passwordInput}
@@ -362,13 +362,13 @@ export default function AuthPage() {
 
               <div className="auth-fields">
                 <DSInput
-                  label="ชื่อ" type="text" size="lg"
+                  label="ชื่อ" type="text" inputSize="lg"
                   placeholder="ระบุชื่อ" required fullWidth
                   value={firstNameInput}
                   onChange={e => setFirstNameInput(e.target.value)}
                 />
                 <DSInput
-                  label="นามสกุล" type="text" size="lg"
+                  label="นามสกุล" type="text" inputSize="lg"
                   placeholder="ระบุนามสกุล" required fullWidth
                   value={lastNameInput}
                   onChange={e => setLastNameInput(e.target.value)}
@@ -402,7 +402,7 @@ export default function AuthPage() {
               <div className="auth-fields">
                 {/* ✅ DSInput: showPasswordToggle, inline validation */}
                 <DSInput
-                  label="ตั้งรหัสผ่าน" type="password" size="lg"
+                  label="ตั้งรหัสผ่าน" type="password" inputSize="lg"
                   placeholder="ระบุรหัสผ่าน" showPasswordToggle required fullWidth
                   value={newPassword}
                   onChange={e => setNewPassword(e.target.value)}
@@ -417,7 +417,7 @@ export default function AuthPage() {
                   }
                 />
                 <DSInput
-                  label="ยืนยันรหัสผ่าน" type="password" size="lg"
+                  label="ยืนยันรหัสผ่าน" type="password" inputSize="lg"
                   placeholder="ระบุรหัสผ่าน" showPasswordToggle required fullWidth
                   value={confirmPassword}
                   onChange={e => setConfirmPassword(e.target.value)}
@@ -530,7 +530,7 @@ export default function AuthPage() {
 
               <div className="auth-fields">
                 <DSInput
-                  label="อีเมล" type="email" size="lg"
+                  label="อีเมล" type="email" inputSize="lg"
                   placeholder="ระบุอีเมล" fullWidth
                   value={forgotEmail}
                   onChange={e => setForgotEmail(e.target.value)}
